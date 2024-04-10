@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "243034043096",
+    "firebase_url": "https://farmaciaudb-default-rtdb.firebaseio.com",
+    "project_id": "farmaciaudb",
+    "storage_bucket": "farmaciaudb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243034043096:android:78db49c92966c837ca9dad",
+        "android_client_info": {
+          "package_name": "com.example.farmaciaudb"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6LyPtWvr7KuyD98qDcdM_E1GrNSHn9mk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
