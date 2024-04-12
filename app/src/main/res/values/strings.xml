@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">farmaciaudb</string>
+    <string name="pharmacy_image_desc">imagen farmacia</string>
+    <string name="logo_desc">Logo de Farmacia UDB</string>
 </resources>
