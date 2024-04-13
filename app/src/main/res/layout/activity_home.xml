@@ -57,6 +57,20 @@
             android:drawablePadding="10dp"
             android:textSize="25dp"/>
 
+        <Button
+            android:id="@+id/btnCarrito"
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/rounded_button"
+            android:drawableLeft="@drawable/ic_car2"
+            android:drawablePadding="10dp"
+            android:padding="20dp"
+            android:text="Compra"
+            android:textSize="25dp" />
+
+
     </LinearLayout>
 
 </RelativeLayout>

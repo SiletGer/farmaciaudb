@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
         val btnMedicamentos = findViewById<Button>(R.id.btnMedicamentos)
         val btnRegistro = findViewById<Button>(R.id.btnRegistro)
         val btnConsultas = findViewById<Button>(R.id.btnConsultas)
+        val btnCarrito = findViewById<Button>(R.id.btnCarrito)
 
         btnMedicamentos.setOnClickListener {
             val intent = Intent(this, MedicamentosActivity::class.java)
@@ -26,6 +27,11 @@ class MainActivity : AppCompatActivity() {
 
         btnConsultas.setOnClickListener {
             val intent = Intent(this, ConsultasActivity::class.java)
+            startActivity(intent)
+        }
+
+        btnCarrito.setOnClickListener {
+            val intent = Intent(this, CarritoActivity::class.java)
             startActivity(intent)
         }
     }
