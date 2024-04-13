@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageViewCarritoItem"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_medicamento"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewCarritoItemNombre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Nombre del Medicamento"
+        app:layout_constraintStart_toEndOf="@id/imageViewCarritoItem"
+        app:layout_constraintTop_toTopOf="@id/imageViewCarritoItem"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewCarritoItemPrecio"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="$0.00"
+        app:layout_constraintStart_toStartOf="@id/textViewCarritoItemNombre"
+        app:layout_constraintTop_toBottomOf="@id/textViewCarritoItemNombre"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewCarritoItemCantidad"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Cantidad: 0"
+        app:layout_constraintStart_toStartOf="@id/textViewCarritoItemPrecio"
+        app:layout_constraintTop_toBottomOf="@id/textViewCarritoItemPrecio"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/buttonCarritoItemEliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eliminar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/imageViewCarritoItem" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
