@@ -6,12 +6,12 @@
 
 <h2>Video 🛠️</h2>
 <ul>
-  <li><A HREF="https://trello.com/b/xqWSfuDM/proyecto-dsp](https://drive.google.com/file/d/1BE1HRa5rTIQc9wX0lJrvTvWj8NnLGd_m/view?usp=sharing)">DRIVE</A></li>
+  <li><A HREF="https://drive.google.com/file/d/1BE1HRa5rTIQc9wX0lJrvTvWj8NnLGd_m/view?usp=sharing">DRIVE</A></li>
 </ul>
 
 <h2>Muckups 🛠️</h2>
 <ul>
-  <li><A HREF="https://trello.com/b/xqWSfuDM/proyecto-dsp](https://drive.google.com/file/d/1BE1HRa5rTIQc9wX0lJrvTvWj8NnLGd_m/view?usp=sharing)](https://www.figma.com/file/yjqPNBTytYZlDWeyosQjp0/Farmacia_APP?type=design&node-id=0%3A1&mode=design&t=CJTSVBTOhzCTsqZu-1)">FIGMA</A></li>
+  <li><A HREF="https://www.figma.com/file/yjqPNBTytYZlDWeyosQjp0/Farmacia_APP?type=design&node-id=0%3A1&mode=design&t=CJTSVBTOhzCTsqZu-1">FIGMA</A></li>
 </ul>
 
 <h2>Guía de Usuario 🛠️</h2>
